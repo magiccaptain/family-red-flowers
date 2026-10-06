@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="小花园，记录每一份值得鼓励的努力。奖励小红花，兑换小心愿。">
+  <meta name="theme-color" content="#f8f7f2">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="小花园">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="manifest" href="manifest.json">
+  <title>小花园 · 小红花成长记录</title>
+  <style>
+    html,body{margin:0;background:#f8f7f2}
+    #welcome{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:system-ui,sans-serif;color:#353b34;background:#f8f7f2}
+    #welcome img{width:88px;height:88px;animation:bloom 2s ease-in-out infinite}
+    #welcome h1{font-size:24px;letter-spacing:4px;margin:18px 0 8px}
+    #welcome p{font-size:13px;color:#8b8e80}
+    @keyframes bloom{50%{transform:rotate(12deg) scale(1.08)}}
+  </style>
+</head>
+<body>
+  <div id="welcome"><img src="icons/Icon-192.png" alt="小红花"><h1>小花园</h1><p>每一份努力，都值得一朵小红花</p></div>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

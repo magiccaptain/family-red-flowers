@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "小花园 · Linux 云端调试", "request": "launch", "type": "dart", "deviceId": "linux", "env": {"RF_PG_CONFIG_FILE": "${workspaceFolder}/artifacts/pg-connection.json"}},
+    {"name": "小花园 · Android 平板", "request": "launch", "type": "dart"}
+  ]
+}

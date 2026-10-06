@@ -1,0 +1,35 @@
+{
+  "name": "小花园 · 小红花成长记录",
+  "short_name": "小花园",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f8f7f2",
+  "theme_color": "#d85a50",
+  "description": "记录小朋友的每一份努力，兑换成长的小快乐。",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
